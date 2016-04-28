@@ -1,0 +1,25 @@
+{
+  "name": "motley-mongo",
+  "version": "0.0.0",
+  "description": "MongoDB adapter for Motley",
+  "main": "_codemap",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlos8f/motley-mongo.git"
+  },
+  "homepage": "https://s8f.org/motley.html",
+  "keywords": [
+    "app",
+    "framework",
+    "bacon",
+    "yeah"
+  ],
+  "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlos8f/motley-mongo/issues"
+  },
+  "dependencies": {
+    "mongodb": "^2.1.18"
+  }
+}

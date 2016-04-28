@@ -1,0 +1,8 @@
+module.exports = {
+  _ns: 'motley',
+  _folder: 'conf',
+
+  'db.mongo': {
+    'url': 'mongodb://localhost:28017/motley'
+  }
+};
