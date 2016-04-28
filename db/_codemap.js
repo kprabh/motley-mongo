@@ -3,5 +3,8 @@ module.exports = {
   _folder: 'db',
 
   'connectMongo': require('./connectMongo'),
+  'createMongoCollection': require('./createMongoCollection'),
+  '@createCollection': '#createMongoCollection',
+
   'mongo.db': null
 }
