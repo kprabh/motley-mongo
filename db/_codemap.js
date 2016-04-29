@@ -4,7 +4,7 @@ module.exports = {
 
   'connectMongo': require('./connectMongo'),
   'createMongoCollection': require('./createMongoCollection'),
-  '@createCollection': '#createMongoCollection',
+  '@createCollection': '#db.createMongoCollection',
 
   'mongo.db': null
 }
