@@ -5,6 +5,7 @@ module.exports = function container (get, set) {
     MongoClient.connect(options.url, function (err, db) {
       if (err) return cb(err);
       set('@db.mongo.db', db);
+      console.log('connected to mongo at ' + options.url)
       cb();
     });
   }
