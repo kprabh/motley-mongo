@@ -2,5 +2,6 @@ module.exports = {
   _ns: 'motley',
   _folder: 'hooks',
 
-  'boot[]': ['#db.connectMongo']
+  'boot[]': '#db.connectMongo',
+  'close[]': '#db.closeMongo'
 }
