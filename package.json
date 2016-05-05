@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "mongodb": "^2.1.18",
-    "sosa_mongo": "^0.1.0"
+    "sosa_mongo": "^1.0.0"
   }
 }
