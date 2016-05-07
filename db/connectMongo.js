@@ -9,11 +9,14 @@ module.exports = function container (get, set) {
       if (options.username) {
         db.authenticate(options.username, options.password, function (err, result) {
           if (err) return cb(err)
-          get('console').log('motley-mongo: connected to ' + options.url)
+          get('console').log('motley-mongo: connected to ' + options.url + ' (with authenticate)')
           cb()
         })
       }
-      else cb()
+      else {
+        get('console').log('motley-mongo: connected to ' + options.url)
+        cb()
+      }
     })
   }
 }
