@@ -18,7 +18,7 @@
     "url": "https://github.com/carlos8f/motley-mongo/issues"
   },
   "dependencies": {
-    "mongodb": "^2.1.18",
+    "mongodb": "2.1.18",
     "sosa_mongo": "^1.0.0"
   }
 }
